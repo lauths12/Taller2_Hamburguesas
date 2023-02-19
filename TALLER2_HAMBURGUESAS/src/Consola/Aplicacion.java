@@ -136,7 +136,7 @@ public class Aplicacion{
 	    System.out.println("Menú cargado correctamente.");
 	    
 	    archivoCargado = restaurante;
-	    System.out.println("\n---------------------MENU-----------------------:");
+	    System.out.println("\n----------------------MENU------------------------:");
 	    System.out.println("\nBEBIDAS:\n");
 	    HashMap<String, Double> bebidas = restaurante.getBebidas();
 	    for (String producto : bebidas.keySet()) {
