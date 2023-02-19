@@ -16,7 +16,7 @@ public class Aplicacion{
 	
 	public void ejecutarAplicacion()
 	{
-		System.out.println("Hamburguesas Uniandes\n");
+		System.out.println("\n------------------------Hamburguesas Uniandes-----------------------\n");
 
 		boolean continuar = true;
 		while (continuar)
@@ -122,6 +122,10 @@ public class Aplicacion{
 	    }
 	    
 	    restaurante.iniciarPedido(nombreCliente, direccionCliente, pedido);
+	    System.out.println("\nPedido registrado con éxito:");
+	    for (String producto : pedido) {
+	        System.out.println("- " + producto);
+	    }
 	}
 
 	private void ejecutarCargarMenu() {
